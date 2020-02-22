@@ -1,0 +1,29 @@
+{
+  "name": "volume-vis",
+  "version": "0.1.0",
+  "description": "Volume rendering visulization of scientific data",
+  "scripts": {
+    "serve": "webpack-dev-server --content-base dist/",
+    "build": "webpack"
+  },
+  "author": "Alex Chen",
+  "license": "MIT",
+  "dependencies": {
+    "aframe": "^1.0.4",
+    "aframe-orbit-controls": "^1.2.0",
+    "dat.gui": "^0.7.6",
+    "marching-cubes": "file:../pkg",
+    "three": "^0.113.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.1.0",
+    "glslify-loader": "^2.0.0",
+    "raw-loader": "^4.0.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
